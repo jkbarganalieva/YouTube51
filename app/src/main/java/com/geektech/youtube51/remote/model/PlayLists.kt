@@ -1,4 +1,4 @@
-package com.geektech.youtube51.model
+package com.geektech.youtube51.remote.model
 
 
 data class PlayLists(

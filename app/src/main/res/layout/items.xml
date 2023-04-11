@@ -11,10 +11,34 @@
 
     <ImageView
         android:id="@+id/iv_video"
-        android:layout_width="80dp"
+        android:layout_width="125dp"
         android:layout_height="80dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="10dp"
+        android:background="@drawable/video_2"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher_background" />
+
+    <View
+        android:id="@+id/rectangle_2"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="71dp"
+        android:background="@drawable/rectangle_2" />
+
+    <TextView
+        android:id="@+id/playlist"
+        android:layout_width="40dp"
+        android:layout_height="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="73dp"
+        android:gravity="top"
+        android:text="playlist"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
 
 
     <TextView
@@ -22,7 +46,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="top|start"
-        android:layout_marginStart="100dp"
+        android:layout_marginStart="140dp"
         android:layout_marginTop="10dp" />
 
     <TextView
@@ -30,7 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="top|start"
-        android:layout_marginStart="100dp"
+        android:layout_marginStart="140dp"
         android:layout_marginTop="50dp" />
 
 </androidx.cardview.widget.CardView>
